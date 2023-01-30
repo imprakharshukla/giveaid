@@ -11,7 +11,7 @@ const Tab2: React.FC = () => {
                     <span className={"text-white text-3xl font-extrabold"}>GiveAid</span>
                 </div>
                 {/*THIS IS THE PARENT DIV BELOW THE GREEN THING*/}
-                <div className={"pt-12 mx-6"}>
+                <div className={"pt-12 mx-6 mb-6"}>
                     <div className={"bg-white rounded-lg drop-shadow pb-3"}>
                         {/*DIV FOR UPPER PART OF COMPONENT*/}
                         <div className={"border-b border-gray-300 py-2 px-6 flex justify-between items-center"}>
@@ -24,7 +24,7 @@ const Tab2: React.FC = () => {
                                 <div className={"font-sans text-4xl"}>Monday</div>
                                 <div className={"font-sans text-xl"}>February</div>
                                 <div className={"font-sans text-blue-800 text-8xl"}>25</div>
-                                <div className={"font-sans text-4xl text-amber-400 mt-4"}>PISS</div>
+                                <div className={"font-sans text-4xl text-amber-400 mt-4"}>In Transit.</div>
                                 <div className={"font-sans text-lg text-blue-500 font-semibold mt-6"}>Request Delivery
                                 </div>
                             </div>
@@ -36,10 +36,10 @@ const Tab2: React.FC = () => {
                                 {/*Image Div*/}
                                 <div className={"w-24 rounded-lg overflow-hidden border border-gray-200"}>
                                     <img src={"https://unsplash.it/400/400?random?=oogabooga"}
-                                         className={"object-fit"}/>
+                                         className={"object-fit"} alt={"Shipping partner"}/>
                                 </div>
                                 <div className={"ml-3 flex flex-col justify-between pb-2"}>
-                                    <div className={"text-xl pt-1"}>ShitRocket</div>
+                                    <div className={"text-xl pt-1"}>ShipRocket</div>
                                     <a href={"https://reddit.com/r/therewasanattempt"}>Support?</a>
                                 </div>
                             </div>
@@ -55,26 +55,18 @@ const Tab2: React.FC = () => {
                                     <div
                                         className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                     <time
-                                        className="mb-1 text-lg font-sans leading-none text-gray-400 dark:text-gray-500">February
+                                        className="mb-1 text-lg font-sans leading-none text-gray-800 dark:text-gray-500">February
                                         2022
                                     </time>
                                     <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get
                                         access to over 20+ pages including a dashboard layout, charts, kanban board,
                                         calendar, and pre-order E-commerce & Marketing pages.</p>
-                                    <a href="#"
-                                       className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Learn
-                                        more <svg className="w-3 h-3 ml-2" fill="currentColor" viewBox="0 0 20 20"
-                                                  xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd"
-                                                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                                  clip-rule="evenodd"></path>
-                                        </svg></a>
                                 </li>
                                 <li className="mb-10 ml-4">
                                     <div
                                         className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                     <time
-                                        className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March
+                                        className="mb-1 text-lg font-sans leading-none text-gray-800 dark:text-gray-500">March
                                         2022
                                     </time>
                                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">All of the
@@ -85,7 +77,7 @@ const Tab2: React.FC = () => {
                                     <div
                                         className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                     <time
-                                        className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April
+                                        className="mb-1 text-lg font-sans leading-none text-gray-800 dark:text-gray-500">April
                                         2022
                                     </time>
                                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started
