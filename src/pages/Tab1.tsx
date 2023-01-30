@@ -2,13 +2,14 @@ import {IonContent, IonPage} from '@ionic/react';
 import './Tab1.css';
 import React from "react";
 
+
 const Tab1: React.FC = () => {
     return (
         <IonPage>
             <IonContent fullscreen>
                 <div
                     className={"flex font-sans flex-col justify-center items-center bg-primary space-y-6 px-4 py-5 rounded-b-3xl"}>
-                    <h1 className={"text-white font-extrabold"}>Giveaids</h1>
+                    <h1 className={"text-white font-extrabold"}>GiveAid</h1>
                     <div className="mb-6  flex space-x-5 justify-center items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" className={"text-white fill-current"}
                              viewBox="0 0 24 24" width="24" height="24">
@@ -30,6 +31,25 @@ const Tab1: React.FC = () => {
                         <input type="email" id="email"
                                className="bg-secondary text-white font-semibold ring-0 focus:ring-0 focus:ring-offset-0 border-0 placeholder-white text-sm rounded-lg block w-full px-4 py-5"
                                placeholder="Select Pickup Location" required/>
+                    </div>
+                    <div className="mb-6  flex space-x-5 justify-center items-center">
+                        <button className="text-primary bg-white px-36 py-4 rounded-md">Continue</button>
+                    </div>
+                </div>
+                {/*THIS IS THE PARENT DIV BELOW THE GREEN THING*/}
+                <div className={"pt-12 mx-8"}>
+                    <div className={"bg-gray-200 rounded-lg drop-shadow"}>
+                    {/*DIV FOR UPPER PART OF COMPONENT*/}
+                        <div className={"flex justify-between px-6 py-4"}>
+                        {/*TEXT DIV*/}
+                            <div>
+                                <span className={"text-xl block"}>Clothes</span>
+                                <span className={"ml-1 tracking-tight"}>In transit.</span>
+                            </div>
+                        </div>
+                        <div className={"border-t border-gray-300 pl-8 py-2"}>
+                            <span className={"text-gray-500"}>Kikari Orphanage →</span>
+                        </div>
                     </div>
                 </div>
             </IonContent>
