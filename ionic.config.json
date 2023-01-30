@@ -1,0 +1,7 @@
+{
+  "name": "giveaid",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
